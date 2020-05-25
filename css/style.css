@@ -1,0 +1,257 @@
+
+.img-brand
+{
+    position: absolute;
+    left: 45%;
+    top: 0;
+}
+.header
+{
+    background-color: #f6f5fc;
+}
+.ico{
+    font-size: 20px;
+    cursor: pointer;
+}
+.banner
+{
+    position: relative;
+}
+.banner-img
+{
+    width: 60%;
+    margin: 80px 115px;
+}
+.banner-img img
+{
+    width: 100%;
+    margin-bottom: -80px;
+}
+.banner-title
+{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.banner-title h1
+{
+    color: white;
+    background: rgba(0,0,0,.75);
+    padding: 0px 10px;
+     font-size: 55px; 
+     line-height: 70px; 
+}
+.fashion-trends
+{
+    padding: 100px 0;
+
+}
+
+.fashion-box
+{
+    margin: 80px 0;
+}
+.fashion-style h2
+{
+    text-transform: uppercase;
+    padding: 40px 0;
+}
+.fashion-style
+{
+    margin: 0 auto 80px;
+    width: 80%;
+    height: 120px;
+    background-color: white;
+    max-width: 700px;
+    box-shadow: 0 4px 5px rgba(0,0,50,.5);
+    position: relative;
+}
+.fashion-style::after
+{
+    content: "";
+    width: 200px;
+    height: 100px;
+    background-color: #f992a5;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+.fashion-style::before
+{
+    content: "";
+    width: 200px;
+    height: 100px;
+    background-color: #f992a5;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+.trands-img
+{
+    height:600px ;
+    /* background-color: saddlebrown; */
+    position: relative;
+}
+
+
+.trands-img img
+{
+    height: 600px;
+    width: 100%;
+}
+.bbtn
+{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+    z-index: 1;
+}
+.trands-img:hover .bbtn
+{
+     /* transform: translate(-50%,50%);   */
+     bottom: 50%;  
+    opacity: 1;
+}
+  .overlay
+{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition: .6s;
+    opacity: 0;
+    
+}  
+.trands-img:hover .overlay
+{
+    opacity: 1;
+}
+.subscribe-img
+{
+    background-image: url(../image/photo-of-multicolored-abstract-painting-1193743.jpg);
+    background-size: cover;
+     background-position: center; 
+     /* height: 500px;  */
+     position: relative; 
+}
+ .subscribe-body
+{
+   margin-top: 100px; 
+    background-color: rgba(0, 0, 0, .75);
+    font: 1em sans-serif;
+}  
+.img-sub
+{
+    /* width: 400px; */
+    height: 500px; 
+    margin: -100px; 
+    margin-top: 150px;
+}
+.fashion-blog
+{
+    /* position: relative; */
+    margin: 250px 0 150px 0;
+}
+.blog-img
+{
+    margin-top: 50px;
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+}
+.blog-img img
+{ 
+    width: 100%;
+    height: 100%;
+}
+.brnd-img
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow:0 2px 40px 0 rgba(110, 130, 208, 0.18);
+    background-color: white;
+    
+
+}
+
+.brnd-img img
+{
+    width: 100%;
+    /* height: 100%; */
+    margin: 10px auto;
+}
+.payment-getway img
+{
+    cursor: pointer;
+}
+.picture-getway img
+{
+    width: 75px;
+    height: 90px;
+    cursor: pointer;
+}
+.social-media
+{
+    font-size: 20px;
+    cursor: pointer;
+    text-align: right;
+}
+
+
+/* for small devices */
+@media only screen and (max-width:900px) 
+{
+    .banner-img
+        {
+            width: 80%;
+            margin: 40% auto;
+        }
+   .banner-title
+        {
+            left: 50%;
+            top: 180px;
+            transform: translate(-50%,0);
+        }
+
+    .banner-title h1
+        {
+            padding: 5px;
+            font-size: 16px; 
+            line-height: 20px; 
+        }
+        .img-sub
+        {
+            margin-bottom: 0px !important;
+            margin-top: 20px !important;
+        }
+        .social-media
+        {
+            font-size: 15px;
+            text-align: center;
+        }
+        .coo
+        {
+            text-align: center;
+        
+        }
+        .banner-img
+        {
+            width: 60%;
+            margin: 20px auto;
+        }
+        .banner-img img
+        {
+            
+            margin-bottom: -80px;
+        }
+        
+}
